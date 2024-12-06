@@ -1,0 +1,23 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #b62721; 
+    --secondary-color: #f5e5e5; 
+}
+
+th[role="columnheader"] span {
+    color: #B5B7C0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+table th{
+    border-bottom: 1px solid #c1c3cb5c !important;
+}
+
+.chakra-modal__header {
+    color: var(--primary-color)
+}
