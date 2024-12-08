@@ -33,7 +33,7 @@ export const socket = io(
     ? "http://localhost:5000/"
     : "https://avenue5-2eacdcb01d69.herokuapp.com/"
 );
-
+/* App */
 function App() {
   const token =
     localStorage.getItem("token") || sessionStorage.getItem("token");
