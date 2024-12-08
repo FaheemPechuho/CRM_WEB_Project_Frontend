@@ -176,15 +176,6 @@ const routes = [
     component: AdminSetting,
   },
 
-  // // ------------- Communication Integration Routes ------------------------
-  // {
-  //   name: "Communication Integration",
-  //   layout: [ROLE_PATH.admin, ROLE_PATH.user],
-
-  //   path: "/communication-integration",
-  //   icon: <Icon as={GiSatelliteCommunication} width='20px' height='33px' color='inherit' />,
-  //   component: Communication,
-  // },
   // ------------- Task Routes ------------------------
   {
     name: "Task",
